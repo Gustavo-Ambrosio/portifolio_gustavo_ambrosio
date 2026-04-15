@@ -31,10 +31,11 @@ navLinks.querySelectorAll('a').forEach(link => {
 
 // ---- Typing effect ----
 const titles = [
-  'Systems Analyst',
+  'Full-Stack Developer',
   'QA & Test Automation Engineer',
+  'Systems Analyst',
+  'Open Source Contributor',
   'DevOps Enthusiast',
-  'ERP/SaaS Specialist',
 ];
 const typedEl = document.getElementById('typed-title');
 let titleIdx = 0;

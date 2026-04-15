@@ -681,6 +681,23 @@ section {
   border: 2px solid rgba(34, 211, 238, 0.4);
 }
 
+.card-info {
+  flex: 1;
+}
+
+.card-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.card-role {
+  font-size: 0.78rem;
+  color: var(--cyan);
+  font-weight: 500;
+}
+
 .card-info h3 {
   font-size: 1rem;
   font-weight: 700;
@@ -690,6 +707,55 @@ section {
 .card-info p {
   font-size: 0.8rem;
   color: var(--text-muted);
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 18px;
+}
+
+.card-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.card-stat-number {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.card-stat-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.card-badge {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--purple-dim);
+  color: var(--purple);
+  border: 1px solid rgba(168, 85, 247, 0.25);
 }
 
 .card-divider {
